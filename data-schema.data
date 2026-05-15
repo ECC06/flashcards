@@ -1,0 +1,51 @@
+Word set:
+
+{
+    id: "321",
+    name: "Words from Oliver Twist", 
+    desc: "Words from the book oliver twist",
+    numOfWords: 12,
+    wordsLearned: 10,
+    reviewed: false, 
+    percentageCompleted: 60,
+    currentMode: "learn",
+}
+
+
+
+
+Word:
+
+{   id: "543", 
+    word: "ephemeral",
+    partOfSpeech: "adjective",
+    phonetic: "/ɪˈfɛm(ə)r(ə)l/",
+    definition: "Lasting for a very short time; transitory.",
+    example: "",
+    audio: "",
+    synonyms: transient, fleeting, momentary
+    antonyms: permanent, eternal, everlasting
+}
+Or.... Somewhere to store the words queried from the api
+
+Custom set:
+
+{
+    id: "688",
+    name: "JavaScript terms", 
+    desc: "Javascript terms learned from reading 'Eloquent JavaScript' ",
+    numOfWords: 12,
+    wordsLearned: 10,
+    reviewed: false, 
+    percentageCompleted: 60,
+    currentMode: "learn",
+}
+
+Set term:
+
+{
+    id: "999", 
+    term: "Event Propagation",
+    definition: "In JavaScript, event propagation is the process by which an event travels through the Document Object Model (DOM) tree to determine which event handlers should be triggered"
+}
+
