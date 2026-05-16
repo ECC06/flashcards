@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sets Page</title>
+</head>
+
+<body>
+    <button>Open nav</button>
+
+    <header>
+        <nav>
+            <button>Close</button>
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="#">Learn a new word</a></li>
+                <li><a href="#">Flashcard sets</a></li>
+                <li><a href="#">Quizzes</a></li>
+            </ul>
+
+            <h1>Your Sets</h1>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- word set and custom set tabs -->
+        <div>
+            <button>Word Sets</button>
+            <button>Custom Sets</button>
+        </div>
+
+        <!-- no sets cont -->
+        <article>
+            <img src="" alt="">
+            <h2>You don't have any sets yet</h2>
+            <button>Create One!</button>
+            </div>
+
+            <!-- sets cont -->
+            <div>
+                <article>
+                    <!-- edit icon -->
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 27.0744V34H6.92558L27.3514 13.5741L20.4259 6.64856L0 27.0744ZM34 6.92558L27.0744 0L22.402 4.69093L29.3275 11.6165L34 6.92558Z"
+                            fill="black" />
+                    </svg>
+
+                    <div>
+                        <div>
+                            <h3>HTML Terms</h3>
+                            <p><span>17</span> terms</p>
+                        </div>
+
+                        <div>
+                            <div>
+                                <p>Completed</p>
+                                <label for="set-completion"><span>60</span>%</label>
+                            </div>
+
+                            <progress id="set-completion" max="100" value="70"></progress>
+                        </div>
+
+                        <div>
+                            <p>Reviewed:</p><span>false</span>
+                        </div>
+
+                        <div>
+                            <a href="#">Open</a>
+                            <button>Delete</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </article>
+    </main>
+
+    <!-- word sets data -->
+    <dialog>
+        <article>
+            <h2>Let's create your word set!</h2>
+
+            <form action="">
+                <div>
+                    <label for="set-name">Name your set</label>
+                    <input type="text" name="" id="set-name" placeholder="e.g: “Words from Oliver Twist”" required>
+                </div>
+
+                <div>
+                    <label for="set-name">Describe your set (opt.)</label>
+                    <input type="text" name="" id="set-name"
+                        placeholder="e.g: “Words and definitions from the book, Oliver Twist by Charles Dickens”">
+                </div>
+
+                <button>Create set</button>
+            </form>
+        </article>
+    </dialog>
+</body>
+
+</html>

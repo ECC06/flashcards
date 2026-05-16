@@ -9,6 +9,7 @@ Word set:
     reviewed: false, 
     percentageCompleted: 60,
     currentMode: "learn",
+    currentCard: 7,
 }
 
 
@@ -39,6 +40,8 @@ Custom set:
     reviewed: false, 
     percentageCompleted: 60,
     currentMode: "learn",
+    currentCard: 7,
+
 }
 
 Set term:

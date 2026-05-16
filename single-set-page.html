@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Set page</title>
+</head>
+
+<body>
+    <button>Open nav</button>
+
+    <header>
+        <nav>
+            <button>Close</button>
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="#">Learn a new word</a></li>
+                <li><a href="#">Flashcard sets</a></li>
+                <li><a href="#">Quizzes</a></li>
+            </ul>
+        </nav>
+
+        <h1>Name of Set</h1>
+
+    </header>
+
+
+    <main>
+        <!-- no words cont -->
+        <article>
+            <img src="" alt="">
+            <h2>You don't have any words yet</h2>
+            <p>You can find a word to add to your set in the dictionary</p>
+            <button>Go to dictionary</button>
+        </article>
+
+        <!-- flashcards cont -->
+
+        <div>
+            <button>i</button>
+
+            <!-- review and learn buttons -->
+            <div>
+                <div>
+                    <button>Review mode</button>
+                    <button>Learn mode</button>
+                </div>
+
+                <p>Card <span>7</span></p>
+            </div>
+
+            <!-- word card -->
+            <article>
+                <button>play</button>
+
+                <span>adjective</span>
+
+                <div>
+                    <p>ephemeral</p>
+                    <p>/ɪˈfɛm(ə)r(ə)l/</p>
+                </div>
+
+                <hr>
+
+                <div>
+                    <p>Lasting for a very short time; transitory.</p>
+                    <p>"Fame is ephemeral — one day everyone knows your name, the next you're forgotten."</p>
+                </div>
+
+                <div>
+                    <div>
+                        <span>Synonyms</span>
+                        <p>transient, fleeting, momentary</p>
+                    </div>
+
+                    <div>
+                        <span>Antonyms</span>
+                        <p>permanent, eternal, everlasting</p>
+                    </div>
+                </div>
+
+            </article>
+
+            <button type="button">Add new word</button>
+
+            <button type="button">Complete session</button>\
+        </div>
+
+        <div>
+            <div>
+                <button>Back to set</button>
+                <button>Restart set</button>
+            </div>
+
+            <!-- completed cont - learn mode -->
+
+            <article>
+                <div>60%</div>
+
+                <!-- user didn't pass -->
+                <div>
+                    <h2>You know <span>12</span> out of <span>20</span> words</h2>
+
+                    <div>
+                        <p>You need at least 80% to take a quiz</p>
+                        <p>(You'll get there!)</p>
+                    </div>
+                </div>
+
+                <!-- user passed -->
+                <div>
+                    <h2>You know <span>16</span> out of <span>20</span> terms</h2>
+
+                    <div>
+                        <p>You need at least 80% to take a quiz</p>
+                        <button type="button">Quiz me!</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- completed cont - review mode -->
+
+            <article>
+                <img src="" alt="">
+
+                <h2>You've reviewed all the words in your set</h2>
+
+                <div>
+                    <p>Now, try <a href="">active recall</a> with learn mode</p>
+                    <button type="button">Try learn mode</button>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+
+</html>
